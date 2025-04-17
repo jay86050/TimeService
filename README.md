@@ -1,5 +1,6 @@
 Simple Time Service
 This repository contains a simple time service application that can be deployed using Docker and Terraform. The application provides the current time when accessed via an API endpoint.
+👉 http://app-alb-1026595973.us-west-2.elb.amazonaws.com  
 
 Directory Structure
 ├── README.md                  # This file
@@ -13,8 +14,6 @@ Directory Structure
     ├── terraform.tfstate      # Terraform state file (do not modify manually)
     ├── terraform.tfstate.backup # Backup of Terraform state
     └── variables.tf           # Input variables for Terraform
-Awesome! Your App is LIVE at:
-👉 http://app-alb-1026595973.us-west-2.elb.amazonaws.com
 
 
 ✅ Dockerized Flask app pushed to ECR
