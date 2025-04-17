@@ -132,16 +132,4 @@ The Docker image for this application is available on Docker Hub at `gjay02194/s
 
 ---
 
-## Customization
 
-- **Modify the Application**: Edit the `app/app.py` file to customize the behavior of the time service.  
-- **Update Terraform Configuration**: Modify the `terraform/main.tf` file to adjust the infrastructure settings (e.g., instance type, region).  
-
----
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
-``` 
-
-This Markdown syntax includes all the details you provided, formatted for clarity and readability. You can copy and paste it directly into your `README.md` file.
