@@ -85,7 +85,8 @@ docker run -p 5000:5000 gjay02194/simpletimeservice:latest
 
 Access the application as described in the "Running the Application Locally" section.
 
-Infrastructure Highlights
+Infrastructure Highlights:- 
+
 Dockerized Flask App : The application is containerized and pushed to Amazon Elastic Container Registry (ECR).
 AWS ECS Fargate : The app runs securely in ECS Fargate, ensuring scalability and minimal operational overhead.
 Application Load Balancer (ALB) : Public access is provided through an ALB, which routes traffic to the ECS tasks.
